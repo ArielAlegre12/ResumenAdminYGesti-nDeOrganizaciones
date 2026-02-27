@@ -1,6 +1,4 @@
-/* Mobile-first responsive styling */
-
-/* Reset sensible defaults */
+/*enfocado para dispositivos como celus y tablets*/
 * {
     box-sizing: border-box;
 }
@@ -14,7 +12,7 @@ body {
     background-color: #9c90b8;
 }
 
-/* center container and limit width on larger screens */
+/*centrar el contenedor y limitar el ancho en pantallas más grandes*/
 main,
 div {
     max-width: 600px;
@@ -48,7 +46,7 @@ ul {
     margin-top: 0.5rem;
 }
 
-/* simple link style */
+/*estilo de los enlaces*/
 a {
     color: #0066cc;
     text-decoration: none;
@@ -58,7 +56,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Media queries for larger viewports */
+/*estilo para pantallas más grandes*/
 @media (min-width: 768px) {
     body {
         padding: 1rem;
@@ -76,7 +74,6 @@ a:hover {
         font-size: 1.25rem;
     }
 }
-
 
 
 .tema {
@@ -114,4 +111,3 @@ a:hover {
   padding: 16px;
   border-top: 1px solid #2d2d2d;
 }
-
