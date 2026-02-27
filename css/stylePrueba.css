@@ -83,7 +83,7 @@ a:hover {
   border: 1px solid #2d2d2d;
 }
 
-/* botón */
+/*botón*/
 .tema-btn {
   width: 100%;
   padding: 18px;
@@ -96,7 +96,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* contenido cerrado */
+/*contenido cerrado*/
 .tema-contenido {
   max-height: 0;
   overflow: hidden;
@@ -104,10 +104,10 @@ a:hover {
   transition: max-height 0.3s ease, padding 0.2s ease;
 }
 
-/* contenido abierto */
+/*contenido abierto*/
 .tema.activo .tema-contenido {
-  max-height: 65vh;     /* ocupa siempre el mismo espacio */
-  overflow-y: auto;    /* scroll interno */
+  max-height: 65vh;/*ocupa siempre el mismo espacio */
+  overflow-y: auto;/*scroll interno*/
   padding: 16px;
   border-top: 1px solid #2d2d2d;
 }
