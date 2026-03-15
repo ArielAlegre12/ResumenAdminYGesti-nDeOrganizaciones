@@ -7,8 +7,8 @@ class MiNavBar extends HTMLElement {
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="primeraParte.html">1°Parte</a></li>
                 <li><a href="segundaParte.html">2°Parte</a></li>
-                <li><a href="#">3°Parte</a></li>
-                <li><a href="#">4°Parte</a></li>
+                <li><a href="tercerPate.html">3°Parte</a></li>
+                <li><a href="cuartaParte.html">4°Parte</a></li>
             </ul>
         </nav>
         `;
