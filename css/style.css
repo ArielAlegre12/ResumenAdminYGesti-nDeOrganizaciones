@@ -179,3 +179,25 @@ header{
     from{opacity:0; transform: translateY(20px);}
     to{opacity: 1; transform: translateY(0);}
 }
+
+.lista-numeral{
+    list-style: decimal;
+}
+.lista-numeral li::marker{
+    font-weight: bold;
+    content: counter(list-item) ") ";
+}
+
+.lista-letras{
+    list-style: none;
+    counter-reset: item;
+}
+.lista-letras li{
+    counter-increment: item;
+    display: flex;
+}
+.lista-letras li::before{
+    font-weight: bold;
+    content: counter(item, upper-alpha) ") ";
+    margin-right: 4px;
+}
